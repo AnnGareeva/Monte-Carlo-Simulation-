@@ -126,7 +126,7 @@ if __name__ == '__main__':
                         help='percentile value by which the distribution is generated')
     parser.add_argument('-sl', '--significance_level', default=0.5, required=False, type=float,
                         help='probability of not rejecting the hypothesis for Smirnov-Kolmogorov test')
-    parser.add_argument('-dst', '--min_dstat_value', default=0.02, required=False, type=float,
+    parser.add_argument('-dst', '--min_dstat_value', default=0.01, required=False, type=float,
                         help='dstat valid value for Smirnov-Kolmogorov test')
     parser.add_argument('-mi', '--max_iter', default=10 ** 6, required=False, type=int,
                         help='maximum number of search iterations')
